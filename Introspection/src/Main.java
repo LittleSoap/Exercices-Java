@@ -24,7 +24,6 @@ public class Main {
 
         while((theClass = theClass.getSuperclass()) != null ){
             System.out.println(theClass);
-            theInterface = theClass.getInterfaces();
             theMethods = theClass.getDeclaredMethods();
 
             for(int i = 0; i< theMethods.length; i++){
