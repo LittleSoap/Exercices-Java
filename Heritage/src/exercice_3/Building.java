@@ -1,3 +1,5 @@
+package exercice_3;
+
 public abstract class Building {
 
     protected String owner;

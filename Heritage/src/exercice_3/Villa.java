@@ -1,3 +1,5 @@
+package exercice_3;
+
 public class Villa extends Building {
 
     private int RoomCounter;

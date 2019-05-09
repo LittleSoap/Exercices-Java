@@ -1,3 +1,5 @@
+package exercice_3;
+
 public class Company extends Building {
 
     private String name;
