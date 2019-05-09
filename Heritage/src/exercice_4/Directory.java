@@ -12,9 +12,16 @@ public class Directory extends FileSystem{
 
     public void addToDirectory(FileSystem fs){
         content.add(fs);
+        this.size += fs.getSize();
     }
 
     public void removeFromDirectory(FileSystem fs){
         content.remove(fs);
+        this.size -= fs.getSize();
+    }
+
+    @Override
+    public void print() {
+        
     }
 }

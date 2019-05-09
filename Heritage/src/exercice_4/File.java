@@ -10,4 +10,9 @@ public class File extends FileSystem {
         super(name, size, creation_date);
         this.content = content;
     }
+
+    @Override
+    public void print() {
+
+    }
 }

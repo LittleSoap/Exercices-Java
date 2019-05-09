@@ -2,7 +2,7 @@ package exercice_4;
 
 import java.util.Date;
 
-public class FileSystem {
+public abstract class FileSystem {
 
     protected String name;
     protected int size;
@@ -40,5 +40,5 @@ public class FileSystem {
         this.creation_date = creation_date;
     }
 
-
+    public abstract void print();
 }
